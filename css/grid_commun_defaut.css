@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*TLT*/
+#overlay { display: none; }
+#box { opacity: 0; filter: alpha(opacity = 0); }
+form[name="injectform"] { display: none; opacity: 0; filter: alpha(opacity = 0); }
+#inject { display: none; opacity: 0; filter: alpha(opacity = 0); }
+/*F-TLT*/
+
+body {
+  font-size:12px;
+  font-family:Arial, Helvetica, sans-serif;
+  background:url(https://static.societegenerale.fr/pri/PRI/Themes/defaut/img/refonte/n2g_fond_site.jpg) no-repeat scroll center top #FFF;
+  margin:0px;
+  padding:0px;
+}
+
+/*Supprime le decalage des hauteurs de ligne des elements en exposant dans un pragraphe*/
+sup {
+  vertical-align : baseline;
+  position : relative;
+  top : -0.5em;
+}
+
+/* DEB COMMUN */
+.n2g_element_a_cacher {
+  position:absolute;
+  left:0;
+  top:-500px;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  ephox-visible:false;
+}
+.n2g_inhiber_le_flottant_a_gauche {
+  clear:left;
+  ephox-visible:false;
+}
+.n2g_inhiber_le_flottant_a_droite {
+  clear:right;
+  ephox-visible:false;
+}
+.n2g_marge_btn_imprimer{
+  padding-bottom:25px;
+  ephox-visible:false;
+}
+/* FIN COMMUN */
+
+/* --- DEB CONTENEUR --- */
+#n2g_conteneur {
+ margin:5px auto 0 auto;
+ padding:5px 0px 0px 0px;
+ width:980px;
+ min-height:788px;
+ margin-bottom: 100px;
+ ephox-visible:false;
+}
+/* --- FIN CONTENEUR --- */
+
+/* --- DEB ZONE HAUT --- */
+#n2g_zone_haut {
+  float:left;
+  ephox-visible:false;
+}
+#n2g_zone_haut_1{
+  float:left;
+  ephox-visible:false;
+  height:100px;
+}
+#n2g_zone_haut_2{
+  clear:left;
+  ephox-visible:false;
+}
+/* --- FIN ZONE HAUT --- */
+
+/* --- DEB ZONE MILIEU --- */
+#n2g_conteneur_milieu{
+  clear:left;
+/*  float:left;*/
+  min-height:491px;
+  border-top:solid #ccc 1px;
+  border-left:solid #ccc 1px;
+  border-right:solid #ccc 1px;
+  padding:0  0 9px 0;
+  background-color:#fff;
+
+  ephox-visible:false;
+}
+#n2g_zone_milieu{
+	/*float:left*/
+  width:978px;
+  margin-top:15px;
+  min-height: 476px;
+/*  overflow:auto;*/
+  ephox-visible:false;
+}
+
+* html #n2g_zone_milieu{
+	height:476px;	*/
+}
+
+#n2g_zone_gauche,
+#n2g_zone_centre,
+#n2g_zone_centre_gauche,
+#n2g_zone_centre_centre,
+#n2g_zone_centre_gauche_haut,
+#n2g_zone_centre_gauche_bas
+{min-height: 1px;}
+/* --- FIN ZONE MILIEU --- */
+
+/* --- DEB ZONE BAS --- */
+#n2g_zone_bas {
+  /*float:left;*/
+  border:solid #ccc 1px;
+  min-height:20px; /* redefinie pour IE6 */
+  background-color:#fff;
+  position:relative;
+  z-index: 1;
+  ephox-visible:false;
+}
+
+.n2g_zone_bas_visuel img, .n2g_zone_bas_copyright img{
+  vertical-align:top; ephox-visible:false;
+}
+
+/* --- FIN ZONE BAS --- */
+
+/* --- DEB CONTENU DE LA ZONE HAUT --- */
+
+/*---- A supprimer ? pas d'lment h1 ---
+#n2g_zone_haut h1 {
+  float:left;
+  width:203px;
+  padding:0;
+  margin:0;
+  ephox-visible:false;
+}
+#n2g_zone_haut h1 img {
+  vertical-align:top;
+  border:0;
+  ephox-visible:false;
+}
+
+/*----------------------*/
+
+
+#n2g_zone_haut_1 div.n2g_zone_logo {
+  float:left;
+  width:203px;
+  padding:0;
+  margin-top:15px;
+  ephox-visible:false;
+}
+#n2g_zone_haut_1 div.n2g_zone_logo img {
+  vertical-align:top;
+  border:0;
+  ephox-visible:false;
+}
+#n2g_zone_haut_centre {
+  float:left;
+  width:467px;
+  height:78px;
+  background-image:none;
+  background-position:0 0;
+  background-repeat:no-repeat;
+  position:relative;
+  ephox-visible:false;
+}
+#n2g_zone_haut_centre h2 {
+  position:absolute;
+  bottom:0;
+  left:5px;
+  font-size:22px;
+  font-weight:normal;
+  padding:0;
+  margin:0;
+  ephox-visible:false;
+}
+#n2g_zone_haut_centre div{
+  position:absolute;
+  bottom:0;
+  font-size:22px;
+  font-weight:normal;
+  padding:0;
+  margin:0;
+float:none;
+  width:100%;
+  ephox-visible:false;
+}
+#n2g_zone_haut_centre h1 {
+  position:absolute;
+  bottom:0;
+  left:40px;
+  font-size:22px;
+  font-weight:normal;
+  padding:0;
+  margin:0;
+float:none;
+  width:100%;
+  ephox-visible:false;
+}
+
+#n2g_zone_haut_droite {
+  float:left;
+  width:310px;
+  margin-top:11px;
+  padding-bottom:0px;
+  ephox-visible:false;
+}
+#n2g_info_derniere_connexion {
+  font-size:11px;
+  text-align:right;
+  ephox-visible:false;
+}
+/* --- FIN CONTENU DE LA ZONE HAUT --- */
+
+/* --- DEB CONTENU DE LA ZONE BAS --- */
+.n2g_zone_bas_visuel{
+  width:175px;
+  float:left;
+  margin-top:2px;
+  padding-left:3px;
+  ephox-visible:false;
+}
+.n2g_zone_bas_liens {
+  width:630px;
+  float:left;
+  text-align:right;
+  margin:1px 0 0 0;
+  padding:0;
+  ephox-visible:false;
+ }
+.n2g_zone_bas_liens ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+  ephox-visible:false;
+}
+.n2g_zone_bas_liens li {
+  display:inline;
+  background:url(../img/n2g_pied_separateur_liens.jpg) no-repeat left 3px;
+  font-size:10px;
+  color:#333;
+  ephox-visible:false;
+}
+.n2g_zone_bas_liens li.n2g_zone_bas_liens_item_first {
+  background-image:none;
+  ephox-visible:false;
+}
+.n2g_zone_bas_liens li a, .n2g_zone_bas_liens li span {
+  color:#333;
+  text-decoration:none;
+  margin:5px 3px 0 3px;
+  padding:0 3px;
+  font-weight:normal;
+  ephox-visible:false;
+}
+.n2g_zone_bas_copyright {
+  float:left;
+  width:145px;
+  margin-top:2px;
+  text-align:right;
+  padding-right:5px;
+  ephox-visible:false;
+}
+.n2g_zone_bas_visuel img, .n2g_zone_bas_copyright img{
+  vertical-align:top; ephox-visible:false;
+}
+/* --- FIN CONTENU DE LA ZONE BAS --- */

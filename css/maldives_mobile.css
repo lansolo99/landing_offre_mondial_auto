@@ -1,0 +1,564 @@
+
+	/*********/
+	/* RESET */
+	/*********/
+
+	header, nav, footer, figure, section, article {display: block;}
+	html, body, span, object, iframe, h1, h2, h3, h4, h5, h6, a, em, font, img, strong, sub, sup, dl, dt, dd, ul, ol, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, p {margin: 0;	padding: 0;	border: 0;	outline: 0; text-decoration: none;}
+
+
+
+	/*********/
+	/* BORDER BOX */
+	/*********/
+
+	body {
+	  box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  -o-box-sizing: border-box;
+	}
+	*, *:before, *:after {
+	  box-sizing: inherit;
+	  -moz-box-sizing: inherit;
+	  -webkit-box-sizing: inherit;
+	  -o-box-sizing: inherit;
+	}
+
+
+	/*********/
+	/* FONT */
+	/*********/
+
+		/* Better Font Rendering =========== */
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	strong { font-weight: bold; }
+
+
+
+	/*********/
+	/* GENERAL */
+	/*********/
+
+
+	body {
+	  font-family: 'Arial', sans-serif;
+		height: 100%;
+		background-color: white;
+	}
+
+
+/* RESPONSIVE GRID SYSTEM */
+
+
+	/*  SECTIONS  */
+	#cadeaux .section {
+		clear: both;
+		padding: 0;
+		margin: 0;
+	}
+
+	#cadeaux .section:first-child{
+		margin-bottom: 6vw;
+	}
+
+	/*  COLUMN SETUP  */
+	.col {
+		display: block;
+		float:left;
+		margin: 1% 0 1% 8%;
+	}
+	.col:first-child { margin-left: 0; }
+
+	/*  GROUPING  */
+	.group:before,
+	.group:after { content:""; display:table; }
+	.group:after { clear:both;}
+	.group { zoom:1; /* For IE 6/7 */ }
+
+	/*  GRID OF TWO  */
+	.span_2_of_2 {
+		width: 100%;
+	}
+	.span_1_of_2 {
+		width: 46%;
+	}
+
+	/*  SEGMENTS  */
+
+	.segment{
+	  width: 100%;
+	}
+
+	.segment.header{
+	  background: #282525;
+	  padding: 5%;
+	}
+
+	.segment.bandeau{
+	  padding: 0;
+	}
+
+  .segment.notice{
+    background: #3ab5c1;
+    padding: 6%;
+    padding-top: 22%;
+  }
+
+  .segment.border{
+	  padding: 0;
+	}
+
+  .segment.cadeaux{
+    background: #fbf8ee;
+		padding: 6%;
+  }
+
+	.segment.avantages.euro {
+		background: #efebea;
+		padding: 10%;
+	}
+
+	.segment.avantages.assurance {
+		background: #eae5e4;
+		padding: 10%;
+	}
+
+	.segment.simulation {
+	  background: #36383f;
+	  padding: 10% 4%;
+	}
+
+	.segment.mentions_legales {
+	  border-top: 1px solid #bfbfbf;
+	  background: #ffffff;
+	  padding: 6%;
+	}
+
+	.segment.footer {
+	  background: #ffffff;
+	  padding: 6%;
+	  border-top: 1px solid #CCCCCC;
+	}
+
+
+
+	/* Header */
+
+	header{
+		position: relative;
+		clear:both;
+	  width: 100%;
+	  max-width: 768px;
+	}
+
+
+	#logo img{
+	width: 40%;
+	height: auto;
+	display: inline-block;
+	vertical-align: middle;
+	}
+
+
+
+	/* Bandeau */
+
+	#bandeau{
+	  display: block;
+	  position: relative;
+  }
+
+  #main-image{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+	#bandeau .intro{
+    position: absolute;
+    text-align: left;
+    top: 6vw;
+    left: 6%;
+    width: 88%;
+    height: auto;
+    padding: 2vw 0;
+		color: #ffffff;
+		text-transform: uppercase;
+
+  }
+
+	#bandeau .intro span{
+		display: block;
+		margin-bottom: 3.4vw;
+		font-size:3.8vw;
+		font-weight: 200;
+	}
+
+	#bandeau .intro span.strong{
+		font-size: 4.5vw;
+		font-weight: 600;
+	}
+
+	#bandeau .intro span.m1{
+		margin-left: 9vw;
+	}
+
+	#bandeau .intro span.m2{
+		margin-left: 2vw;
+	}
+
+	#bandeau .intro span.m3{
+		margin-left: 23vw;
+	}
+
+
+  #bandeau .main-message{
+    position: absolute;
+    text-align: center;
+    top: 51vw;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 6vw 7vw 7vw 7vw;
+		margin-left: 8%;
+		width: 84%;
+		background: #fff7f1;
+		border-top: 2px solid #3f3337;
+  }
+
+  #bandeau h1{
+    color: #224547;
+    font-size: 4.6vw;
+    line-height: 7.5vw;
+    font-weight: 400;
+  }
+
+  #bandeau h1 sup{
+    font-size: 3vw;
+  }
+
+	#bandeau .main-message h1 span.date{
+		display: block;
+		text-transform: uppercase;
+		font-size: 3.5vw;
+		font-weight: 300;
+	}
+
+	#bandeau .main-message a{
+		display: block;
+		margin-top: 3vw;
+		text-decoration: underline;
+		color: #21201c;
+		font-size: 3.5vw;
+	}
+
+
+
+	/* Notice */
+
+  #notice{
+  text-align: center;
+	color: #ffffff;
+  }
+
+  #notice h2{
+    font-size: 3.2vw;
+		font-weight: 300;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  #notice .section{
+    margin-top: 5vw;
+  }
+
+  #notice .section p{
+		text-transform: uppercase;
+		font-weight: 600;
+    font-size: 4.2vw;
+    margin-top: 3vw;
+    line-height: 6.5vw;
+  }
+
+	#notice .section p span.equal{
+		display: inline-block;
+		margin : 1vw 0;
+	}
+
+	#notice .section p sup{
+		font-size: 2.5vw;
+	}
+
+
+
+	/* Cadeaux */
+
+  #cadeaux{
+    color: #ffffff;
+    position: relative;
+  }
+
+	#cadeaux .col{
+    text-align: center;
+  }
+
+	#cadeaux .col p{
+		color: #211c1a;
+		font-size: 3.6vw;
+		line-height: 5.5vw;
+	}
+
+	#cadeaux .col img{
+		width: 50%;
+		margin-bottom: 2vw	;
+	}
+
+
+
+
+		/* Avantages */
+
+		.avantage{
+		  text-align: center;
+		}
+
+		.avantage h1{
+			text-transform: uppercase;
+			letter-spacing: 1.5vw;
+		  font-weight: 500;
+		  font-size: 4.5vw;
+		  line-height:7vw;
+		  color: #333333;
+		}
+
+		.avantage h1 sup{
+		  font-size: 2.5vw;
+		}
+
+		.avantage p{
+		  font-size: 3.8vw;
+		  line-height: 7vw;
+		  color: #333333;
+		}
+
+		.avantage p sup{
+		  font-size: 2.5vw;
+		}
+
+		.segment.avantages.assurance .avantage p{
+			font-size: 4.5vw;
+			line-height: 8vw;
+		}
+
+		.avantage hr {
+		   display: block;
+		   position: relative;
+		   padding: 0;
+		   margin: 6vw auto;
+		   height: 0;
+		   width: 15%;
+		   max-height: 0;
+		   font-size: 1px;
+		   line-height: 0;
+		   clear: both;
+		   border: none;
+		   border-top: 1px solid #ffffff;
+		   border-bottom: 1px solid #ffffff;
+		}
+
+		.segment.avantages.assurance img{
+			width: 30%;
+			height: auto;
+			margin:3vw 0;
+		}
+
+
+
+	/* Simulation */
+
+	#simulation{
+		text-align: center;
+	}
+
+	#simulation h2{
+	  color: #ffffff;
+	  display: block;
+	  text-transform: uppercase;
+	  line-height: 8vw;
+	  font-size: 5vw;
+	  font-weight: 600;
+	}
+
+	#simulation p{
+		color: #ffffff;
+		display: inline-block;
+		margin-top: 4vw;
+		font-size: 3.8vw;
+		line-height: 8vw;
+	}
+
+	#simulation p sup{
+		font-size: 3vw;
+	}
+
+
+	.segment.simulation a {
+		color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+	}
+
+
+	.btn {
+	    position: relative;
+	    display: block;
+			width: 75%;
+			margin:auto;
+	    font-size: 4.2vw;
+	    font-weight: 500;
+	    padding: 5vw;
+	    padding-left: 5vw;
+
+	}
+
+	.btn.simulation{
+	  padding-top: 5vw;
+	  padding-bottom: 4vw;
+	  margin-top: 5vw;
+	  font-size: 4.5vw;
+	  font-weight: 600;
+	  color: #ffffff;
+		background: #25b3c6;
+		border-bottom: 2px solid #228d9b;
+		box-shadow: none;
+		border-radius: 3px;
+	}
+
+	.btn.simulation .label{
+	  position: relative;
+	  line-height: 6.5vw;
+	}
+
+
+	/* Mentions légales */
+
+	#mention{
+	  position: absolute;
+	  top:48vw;
+	  right:0vw;
+	  color: #ffffff;
+	  font-size: 4vw;
+	  font-weight: 300;
+	  line-height: 6vw;
+	}
+
+	#mentions_legales {
+		font-size: 4vw;
+	  color: #727577;
+	}
+
+	#mentions_legales a{
+		color: #727577;
+		text-decoration: underline;
+	}
+
+	#mentions_legales h3 {
+	  display: block;
+	  position: relative;
+		cursor : pointer;
+	  font-weight: 400;
+	  font-size: 4vw;
+	}
+
+
+	#mentions_legales .mentions{
+		counter-reset: mention_count;
+	  margin-top: 6vw;
+	}
+
+	#mentions_legales .mentions dt {
+		position: relative;
+	  padding: 0 0 5vw 0;
+	  padding-left: 9vw;
+	  line-height: 5vw;
+	  text-align: left;
+	}
+
+	#mentions_legales .mentions p {
+		display: block;
+		padding-bottom: 20vw;
+	}
+
+
+	#mentions_legales .mentions dt:before{
+		content: '('counter(mention_count)')';
+	  counter-increment: mention_count;
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	  font-size: 4vw;
+	}
+
+	#mentions_legales .mentions dt span{
+	white-space: nowrap;
+	}
+
+	.ui-icon.iconOpen {
+	  display: block;
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  background-image: url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/mentions_minus.png');
+	  background-image: -webkit-image-set( url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/mentions_minus.png') 1x, url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/mentions_minus-2x.png') 2x );
+	  background-size:100%;
+	  width:4.5vw;
+	  height:4.5vw;
+	}
+	.ui-icon.iconClosed {
+	  display: block;
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  background-image: url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/mentions_plus.png');
+	  background-image: -webkit-image-set( url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/mentions_plus.png') 1x, url('https://static.societegenerale.fr/PRI/Repertoire_par_type_de_contenus/Type_de_contenu/01-Pages/02-promo/2015/12/c739/c739-credit-conso-expresso/images/mentions_plus-2x.png') 2x );
+	  background-size:100%;
+	  width:4.5vw;
+	  height:4.5vw;
+
+	}
+
+	/* Footer */
+
+	#footer{
+
+	  text-align: center;
+	}
+
+	#footer a {
+	  color: #666666;
+	  font-size: 3.4vw;
+	  font-weight: 400;
+	}
+
+	#footer ul{
+	  /* margin-top: 5vw; */
+	}
+
+	#footer ul li:first-child {
+	  border-left: 0;
+	  margin-left: 0;
+	}
+
+	#footer ul li {
+	  display: inline-block;
+	  vertical-align: middle;
+	  border-left: 1px solid #b6b6b6;
+	  padding-left: 2vw;
+	  margin-left: 2vw;
+	  margin-bottom: 2vw;
+	}

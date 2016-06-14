@@ -1,0 +1,702 @@
+.n2g_outil_credit_bail_container * {
+    outline: none;
+}
+.n2g_outil_credit_bail_constant { display: none; }
+.n2g_outil_credit_bail_clear{ clear:both; }
+.n2g_outil_credit_bail_container {
+    color: #333;
+}
+
+.n2g_outil_credit_bail_title {
+    border-left: 1px solid #cccccc;
+    padding: 4px 0 4px 8px;
+}
+.n2g_outil_credit_bail_title_h {
+    color: #E50028;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding-right: 5px;
+}
+.n2g_outil_credit_bail_title strong {
+    color: #000000;
+    font-size: 19px;
+    font-weight: normal;
+}
+.n2g_outil_credit_bail_options_box {
+    margin-top: 10px;
+    padding-bottom: 8px;
+    height: 28px;
+    border-bottom: 1px solid #d2d2d2;
+}
+.n2g_outil_credit_bail_options {
+    float: right;
+    width: 72px;
+}
+.n2g_outil_credit_bail_option_info {
+    width: 34px;
+    height: 26px;
+    border: 1px solid #cccccc;
+    float: left;
+}
+.n2g_outil_credit_bail_option_print {
+    width: 34px;
+    height: 26px;
+    border: 1px solid #cccccc;
+    border-left-width: 0;
+    float: left;
+}
+.n2g_outil_credit_bail_option_info a, .n2g_outil_credit_bail_option_print a {
+    width: 34px;
+    height: 26px;
+    display: block;
+}
+.n2g_outil_credit_bail_option_info a {
+    background: url("../images/n2g_outil_credit_bail_icon_info.png") no-repeat scroll center center #ffffff;
+}
+.n2g_outil_credit_bail_option_print a {
+    background: url("../images/n2g_outil_credit_bail_icon_print.png") no-repeat scroll center center #ffffff;
+}
+.n2g_outil_credit_bail_option_info a:hover, .n2g_outil_credit_bail_option_print a:hover {
+	background-color: #e7e5e5;
+}
+.n2g_outil_credit_bail_option_print a.disabled {
+    background: url("../images/n2g_outil_credit_bail_icon_print_disabled.png") no-repeat scroll center center #ffffff;
+    cursor: default;
+}
+.n2g_outil_credit_bail_page_sub {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.n2g_outil_credit_bail_step {
+    margin-top: 18px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.n2g_outil_credit_bail_step_name {
+    font-size: 24px;
+	color: #333;
+	margin-bottom: 20px;
+}
+.n2g_outil_credit_bail_table label {
+    font-weight: bold;
+    display: block;
+}
+.n2g_outil_credit_bail_table_row {
+    margin-top: 30px;
+	margin: 0 auto;
+	padding: 0 auto;
+	font-size: 14px;
+}
+
+.n2g_outil_credit_bail_table_row span{
+    font-size: 11px;
+}
+
+.n2g_outil_credit_bail_table_row span b{
+    font-size: 12px;
+}
+
+.n2g_outil_credit_bail_table_col_first small {
+	font-size: 10px;
+}
+
+.n2g_outil_credit_bail_table_col_first {
+    float: left;
+    width: 80px;
+	height: 35px;
+	border-left: 3px solid #6588a6;
+	padding-left: 10px;
+	padding-right: 50px;
+	padding-top: 4px;
+}
+
+.n2g_outil_credit_bail_table_col_first_unselected {
+    float: left;
+    width: 80px;
+	height: 35px;
+	border-left: 3px solid #e20032;
+	padding-left: 10px;
+	padding-right: 50px;
+	padding-top: 4px;
+}
+
+.n2g_outil_credit_bail_table_col_first_default {
+    float: left;
+    width: 80px;
+	height: 35px;
+	border-left: 3px solid #e2e2e2;
+	padding-left: 10px;
+	padding-right: 50px;
+	padding-top: 4px;
+}
+
+.n2g_outil_credit_bail_table_col_second {
+    float: left;
+    width: 145px;
+}
+.n2g_outil_credit_bail_table_col_last {
+    float: left;
+	
+	margin-top: -16px;
+}
+
+/* STYLISH SELECT */
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_ss_wrapper {
+    margin:0;
+    padding:0;
+    width:382px;
+    position:absolute;
+    top:35px!important;
+    left:-1px!important;
+    z-index:3;
+}
+.n2g_outil_credit_bail_ss ul.n2g_outil_credit_bail_ss_new_list {
+    margin:0;
+    padding:0;
+    list-style:none;
+    color:#333;
+    background:#fff;
+    border:1px solid #cacaca;
+    overflow:auto;
+	height:304px;
+}
+.n2g_outil_credit_bail_ss ul.n2g_outil_credit_bail_ss_new_list * {
+    margin:0;
+    padding:0;
+}
+.n2g_outil_credit_bail_ss ul.n2g_outil_credit_bail_ss_new_list a {
+    color:#333;
+    text-decoration:none;
+    display:block;
+    padding:11px 8px;
+	border-bottom:1px solid #cacaca;
+}
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_ss_new_list_selected {
+    width:374px;
+    color:#333;
+    height:25px;
+    padding: 10px 0px 0px 6px;
+    float:left;
+	border:1px solid #cacaca;
+	background:url("../images/sg_arrow_right.png") no-repeat right center;
+   /*
+   background:url("../images/n2g_outil_credit_bail_select_bg.png") no-repeat;*/
+}
+.n2g_outil_credit_bail_ss ul.n2g_outil_credit_bail_ss_new_list li a:focus {
+    -moz-outline-style: none;
+}
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_ss_selected_text {
+    width:316px;
+    overflow:hidden;
+    padding:9px 58px 10px 6px;
+	margin-top:-10px;
+	margin-left:-6px;
+}
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_ss_hi_lite {
+    background:#6588a6!important;
+    color:#fff!important;
+}
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_ss_new_list_hover {
+    background:#6588a6!important;
+    color:#fff!important;
+    cursor:default;
+}
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_ss_new_list_disabled {
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+}
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_ss_new_list_item_disabled {
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+}
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_ss_new_list_option_disabled {
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+}
+
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_ss_new_list_sel_hover,
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_ss_new_list_sel_focus {
+    cursor:default;
+}
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_ss_new_list_option_title {
+    font-weight:bold;
+}
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_ss_new_list_option_title ul {
+    margin:3px 0 0;
+}
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_ss_new_list_option_title li {
+    font-weight:normal;
+}
+
+/*
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_person .n2g_outil_credit_bail_ss_wrapper {
+    width:156px;
+    cursor: pointer;
+}
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_person .n2g_outil_credit_bail_ss_new_list_selected {
+    width:150px;
+    background:url("../images/n2g_outil_credit_bail_select_bg.png") no-repeat;
+    cursor: pointer;
+}
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_person .n2g_outil_credit_bail_ss_selected_text {
+    width:125px;
+    overflow:hidden;
+    height:16px;
+    padding:0 23px 0 0;
+    cursor: pointer;
+}
+*/
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_ss_hi_lite_error {
+    background:#6588a6!important;
+    color:#fff!important;
+}
+.n2g_outil_credit_bail_ss .n2g_outil_credit_bail_ss_new_list_hover_error {
+    background:#6588a6!important;
+    color:#fff!important;
+    cursor:default;
+}
+
+.input_text_error {
+	background: none;
+    border: none;
+    width: 84px;
+    padding: 9px 5px;
+	color: #333;
+	text-align: left;
+}
+
+.input_error {
+	width: 94px;
+    height: 35px;
+	border: 1px solid #e20032;
+	background: none;
+}
+
+.n2g_outil_credit_bail_input_text {
+    width: 96px;
+    height: 35px;
+    border: 1px solid #cacaca;
+   
+}
+.n2g_outil_credit_bail_input_text input {
+    background: none;
+    border: none;
+    width: 84px;
+    padding: 9px 5px;
+    color: #333;
+    text-align: left;
+}
+
+
+.n2g_outil_credit_bail_slider_container {
+    float: left;
+    height: 20px;
+    margin-top: 2px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.n2g_outil_credit_bail_slider {
+    height: 7px;
+	width: 270px;
+    background: url("../images/n2g_outil_credit_bail_slider_bg.png") no-repeat scroll center left transparent !important;
+    border-width: 0 !important;
+}
+
+.n2g_outil_credit_bail_slider a {
+    background: url("../images/n2g_outil_credit_bail_slider_button.png") no-repeat scroll top left transparent !important;
+    border-width: 0 !important;
+    width: 17px !important;
+    height: 19px !important;
+}
+
+.n2g_outil_credit_bail_slider .ui-slider-range-min {
+    background: url("../images/n2g_outil_credit_bail_slider_bg_min.png") no-repeat scroll center left transparent !important;
+}
+
+.n2g_outil_credit_bail_slider_values {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.n2g_outil_credit_bail_slider_values span {
+	/*width: 24px;*/
+	position: absolute;
+	top: 4px;
+	padding-top: 10px;
+	background: url("../images/n2g_outil_credit_bail_slider_value_border.png") no-repeat scroll top center transparent;
+	display: block;
+	color: #7b8284;
+	font-size: 14px;
+	text-align: center;
+	display:inline-block;
+	white-space:nowrap;
+}
+
+.n2g_outil_credit_bail_btn_valeur_info {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url("../images/n2g_outil_credit_bail_button_info.png") no-repeat scroll top center transparent;
+}
+
+.n2g_outil_credit_bail_slider_values span.n2g_outil_credit_bail_last_value {
+    background: url("../images/n2g_outil_credit_bail_slider_value_border.png") no-repeat scroll top right transparent;
+}
+
+.n2g_outil_credit_bail_slider_values span.n2g_outil_credit_bail_first_value {
+    background: url("../images/n2g_outil_credit_bail_slider_value_border.png") no-repeat scroll top left transparent;
+}
+
+.n2g_outil_credit_bail_table_col_input {
+    float: left;
+    width: 96px;
+}
+
+.n2g_outil_credit_bail_table_input_label_right {
+    float: left;
+    margin-top: 9px;
+    font-weight: bold;
+    font-size: 12px;
+    width: 40px;
+    padding-left: 9px;
+	padding-top: 2px;
+	color: #7b8284;
+}
+
+.n2g_util_credit_bail_footer_xt {
+	width: 300px;
+	height:50px;
+	display: inline;
+	background: #CCCCCC;
+}
+
+.n2g_outil_credit_bail_button_suite {
+    float:right;
+    color: #ffffff;
+    text-decoration: none;
+    background: #6588a6;
+    padding: 7px 20px;
+    width: 80px;
+    height: 16px;
+    cursor: pointer;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+}
+
+.n2g_outil_credit_bail_button_suite_left {
+    text-align:center;
+    color: #ffffff;
+    text-decoration: none;
+    background: #6588a6;
+    padding: 7px 20px;
+    width: 80px;
+    height: 16px;
+    cursor: pointer;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	float: left;
+}
+
+.n2g_outil_credit_bail_button_suite_left em {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+	float: left;
+}
+
+
+.n2g_outil_credit_bail_button_suite em {
+    display: block;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.n2g_outil_credit_bail_button_suite span {
+    display: block;
+    float: right;
+    margin-left: 7px;
+    background: url("../images/n2g_outil_credit_bail_arrow_right.png") no-repeat top left transparent;
+    width: 6px;
+    height: 13px;
+    margin-top: 1px;
+}
+
+.n2g_outil_credit_bail_button_suite_left span {
+    display: block;
+    float: right;
+    margin-left: 7px;
+    background: url("../images/n2g_outil_credit_bail_arrow_right.png") no-repeat top left transparent;
+    width: 6px;
+    height: 13px;
+    margin-top: 1px;
+}
+
+.n2g_outil_credit_bail_end_step {
+    border-top: 1px solid #d2d2d2;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+#n2g_outil_credit_bail_slider_container_duree {
+    position: relative;
+}
+
+#n2g_outil_credit_bail_duree_recommended {
+    height: 8px;
+    width: 0;
+    top: 4px;
+    background: url("../images/n2g_outil_credit_bail_bar_recommended.png") repeat scroll 0 0 transparent;
+    position: relative;
+    display: none;
+    float: left;
+}
+
+#n2g_outil_credit_bail_duree_inf {
+    background: url("../images/n2g_outil_credit_bail_bar_recommended_icon.png") no-repeat scroll center left transparent;
+    font-size: 10px;
+    color: #838383;
+    padding-left: 12px;
+}
+
+#n2g_outil_credit_bail_result {
+    display: none;
+}
+
+.n2g_outil_credit_bail_h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.n2g_outil_credit_bail_h1 small {
+    color: #838383;
+    font-size: 10px;
+}
+
+.n2g_outil_credit_bail_gray_bg {
+    background: #e3eef2;
+    padding: 15px 10px 0 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.n2g_outil_credit_bail_gray_row {
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+
+.n2g_outil_credit_bail_gray_row small {
+    color: #838383;
+    font-size: 10px;
+}
+
+.n2g_outil_credit_bail_total {
+    color: #333;
+}
+
+.n2g_outil_credit_bail_total sup {
+    color: #a0a0a0;
+}
+
+.n2g_outil_credit_bail_gray_left {
+    float: left;
+    width: 270px;
+}
+
+.n2g_outil_credit_bail_gray_center {
+    width: 140px;
+    float: left;
+    text-align: right;
+    font-weight: bold;
+}
+
+.n2g_outil_credit_bail_gray_right {
+    float: right;
+    width: 160px;
+    text-align: right;
+}
+
+.n2g_outil_credit_bail_mention_legales {
+    padding-top: 10px;
+    font-size: 10px;
+	color: #333;
+}
+
+.n2g_outil_credit_bail_mention_legales sup {
+    color: #a0a0a0;
+}
+
+.n2g_outil_credit_bail_mention_legales a {
+    text-decoration: underline;
+    color: #333;
+    font-size: 10px;
+}
+
+
+#n2g_outil_credit_bail_button_contact, #n2g_outil_credit_bail_button_amortir {
+    width: 215px;
+    margin-top: 20px;
+}
+
+#n2g_outil_button_print {
+	float: right;
+	width: 180px;
+}
+
+.n2g_outil_credit_bail_u0 {
+    background: url("../images/n2g_entete_produit_fond.gif") repeat scroll 0 0 transparent;
+    font-size: 1px;
+    height: 1px;
+    line-height: 1px;
+    width: 580px;
+}
+
+/* POPUP */
+.pop_up_text_left {
+	float: left;
+	width:75%;
+}
+
+.pop_up_text_right {
+	float: right;
+	width:25%;
+	text-align: right;
+}
+
+.n2g_outil_credit_bail_popup {
+    border: 1px solid #d2d2d2;
+    background: #ffffff;
+    width: 80%;
+	top: 0px;
+	left: 0px;
+	margin: 10%;
+	z-index: 10000;
+	position: absolute;
+}
+
+.n2g_outil_credit_bail_popup_top {
+    padding: 10px;
+    background: #ffffff;
+    color: #333;
+    font-size: 16px;
+}
+.n2g_outil_credit_bail_popup_top span {
+    display: block;
+    width: 400px;
+    float: left;
+	color: #6588a6;
+}
+.n2g_outil_credit_bail_popup_center {
+    padding: 15px;
+    color: #333
+    line-height: 140%;
+	background: #ffffff;
+}
+.n2g_outil_credit_bail_popup_close {
+    float: right;
+    width: 13px;
+    height: 13px;
+    background: url("../images/n2g_outil_credit_bail_button_close_popup.png") no-repeat scroll 0 0 transparent;
+}
+
+.n2g_popup_header {
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.n2g_outil_credit_bail_button_suite:hover {
+    background: #597893;
+}
+.n2g_outil_credit_bail_button_suite_left:hover {
+    background: #597893;
+}
+.n2g_outil_credit_bail_button_suite_disabled {
+    background: #6588a6 !important;
+    cursor: default !important;
+}
+
+.row_white {
+	background: #ffffff;
+}
+
+.row_grey {
+	background: #cccccc;
+}
+
+.pop_up_text_col1 {
+	float: left;
+	width: 10%;
+	display: inline;
+}
+
+.pop_up_text_col2 {
+	width: 20%;
+	float: left;
+	display: inline;
+}
+
+.pop_up_text_col3 {
+	width: 25%;
+	float: left;
+	display: inline;
+}
+
+.pop_up_text_col4 {
+	width: 20%;
+	float: left;
+	display: inline;
+}
+
+.pop_up_text_col5 {
+	width: 25%;
+	float: right;
+	display: inline;
+}
+
+.n2g_outil_credit_bail_alert_bar {
+	background:	#e20032;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 10px;
+	display: none;
+}
+
+#n2g_outil_credit_bail_amortir_print {
+	display: none;
+}
+
+.n2g_outil_credit_bail_error_message {
+	background: #e20032;
+	color:#ffffff;
+	padding:5px;
+	margin-bottom: 20px;
+	display: none;
+	font-size: 14px;
+}
+
+#n2g_outil_credit_bail_sub_row3 span {
+	text-align: justify !important;
+}
+
+#n2g_outil_credit_bail_sub_row3 {
+	text-align: justify !important;
+}
+
+#bottom_button_bar {
+	margin-top: -24px !important;
+}
+
