@@ -374,10 +374,6 @@
 	  margin-bottom: 0;
 	}
 
-	#mentions_legales .mentions {
-		/* margin-bottom: 10px; */
-	}
-
 	#mentions_legales .mentions dt {
 		position: relative;
 	  padding: 0px 0 7px 0;
@@ -389,8 +385,8 @@
 	  margin-bottom: 0;
 	}
 
-	#mentions_legales .mentions dt:before{
-		content: '('counter(mention_count)')';
+	#mentions_legales .mentions dt:before {
+			content: '('counter(mention_count)')';
 	    counter-increment: mention_count;
 	    position: absolute;
 	    left: 0;
