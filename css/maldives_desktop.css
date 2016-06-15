@@ -389,7 +389,6 @@
 	  margin-bottom: 0;
 	}
 
-
 	#mentions_legales .mentions dt:before{
 		content: '('counter(mention_count)')';
 	    counter-increment: mention_count;
