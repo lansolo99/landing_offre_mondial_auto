@@ -305,6 +305,10 @@
 		color: #ffffff;
 	}
 
+	#simulation a {
+		text-decoration: none;
+	}
+
 	#simulation h2{
 		text-transform: uppercase;
 		font-size: 19px;
