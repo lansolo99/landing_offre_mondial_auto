@@ -419,7 +419,7 @@
 	}
 
 
-	.segment.actions .row .column .button span i.icon-arrow:before, .segment.actions .row.quote .column .button i.icon-arrow:before {
+	.segment.actions .row .column .button span i.icon-arrow:before, .segment.actions .row.quote .column .button i.icon-arrow:before, .segment.actions .row .column .button.tel .area i.icon-arrow.form:before {
 	  content:'';
 	  display: block;
 	  position: absolute;
@@ -452,10 +452,17 @@
 		background-image: url('../images/quote.png');
 	}
 
-	@-moz-document url-prefix() {
-	  .segment.actions .row .column .button span i.icon-arrow.form:before{
-	     top: 14px;
-	  }
+
+
+  .segment.actions .row .column .button.tel .area{
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+
+	.segment.actions .row .column .button.tel .area i.icon-arrow.form:before{
+		top: 13px;
+	  right: 6px;
 	}
 
 	.segment.actions .row .column .button:hover{

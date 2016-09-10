@@ -27,6 +27,14 @@
 		<link rel="stylesheet" type="text/css" media="screen" href="https://static.societegenerale.fr//pri/themes/defaut/css/contenus_ie6_defaut.css">
 		<![endif]-->
 
+		<!--[if lte IE 10]>
+			<style type="text/css">
+				.segment.actions .row .column .button span i.icon-arrow.form:before{
+					top: 23px;
+					right: -29px;
+				}
+			</style>
+		<![endif]-->
 
 		<!--[if lte IE 9]>
 			<style type="text/css">
@@ -45,7 +53,7 @@
 			line-height: 40px;
 		}
 
-		
+
 
 
 
@@ -310,7 +318,11 @@
 									<h2>Pour souscrire<br> par téléphone</h2>
 									<div class="action">
 										<input class="u-full-width" type="text" id="prenom_" placeholder="Indiquez votre n° de téléphone" onfocus="this.placeholder = ''" maxlength=10>
-										<a href="#" class="button tel" id="cta_" xtclib="VF_CTA_wcb"><span><i class="icon-arrow form"></i></span></a>
+										<a href="#" class="button tel" id="cta_" xtclib="VF_CTA_wcb">
+											<div class="area">
+												<i class="icon-arrow form"></i>
+											</div>
+										</a>
 									</div>
 								</div>
 							</div>
