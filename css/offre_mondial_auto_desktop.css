@@ -487,7 +487,10 @@
 	    width: 220px;
 	    border-right: 0;
 			font-size: 13px;
+			color:#777;
+			font-style: italic;
 		}
+
 
 		.segment.actions ::-webkit-input-placeholder {
 		   font-style: italic;
