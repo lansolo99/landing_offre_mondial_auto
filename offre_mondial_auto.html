@@ -292,7 +292,7 @@
 				<div class="segment actions">
 						<div class="row quote">
 							<div class="column">
-									<a href="#" class="button u-full-width" xtclib="VF_CTA_rendez-vous">
+									<a href="#" class="button u-full-width" xtclib="offre_speciale_assurance_auto_CTA_deviss">
 										<span><i class="icon-arrow quote"></i>Réaliser un devis</span>
 										<i class="icon-arrow"></i>
 									</a>
@@ -303,9 +303,8 @@
 								<div class="content">
 									<h2>Pour souscrire<br> par téléphone</h2>
 									<div class="action">
-										<!-- <input class="u-full-width" type="text" id="numero"   placeholder="Indiquez votre n° de téléphone" onfocus="this.placeholder = ''" maxlength=10> -->
 										<input class="u-full-width numero" type="text" id="numero"   value="Indiquez votre n° de téléphone" onfocus="javascript:this.value=''; this.className='input input_after_focus';" maxlength=10>
-										<a href="#" class="button tel" id="cta_" xtclib="VF_CTA_wcb">
+										<a href="#" class="button tel" id="cta_" xtclib="offre_speciale_assurance_auto _CTA_WCB">
 											<div class="area">
 												<i class="icon-arrow form"></i>
 											</div>
@@ -318,7 +317,7 @@
 								<div class="content">
 									<h2>Pour souscrire<br> en agence</h2>
 									<div class="action">
-										<a href="#" class="button u-full-width" xtclib="VF_CTA_rendez-vous"><span>Je prends rendez-vous<i class="icon-arrow"></i></span></a>
+										<a href="#" class="button u-full-width" xtclib="offre_speciale_assurance_auto _CTA_rv_conseiller"><span>Je prends rendez-vous<i class="icon-arrow"></i></span></a>
 									</div>
 								</div>
 							</div>
@@ -501,28 +500,56 @@
 	</div>
 </div>
 
-<script type="text/javascript">
-if($.browser.msie){
- $('input[placeholder]').each(function(){
+	<script type="text/javascript">
+	if($.browser.msie){
+	 $('input[placeholder]').each(function(){
 
-			var input = $(this);
+				var input = $(this);
 
-			$(input).val(input.attr('placeholder'));
+				$(input).val(input.attr('placeholder'));
 
-			$(input).focus(function(){
-					 if (input.val() == input.attr('placeholder')) {
-							 input.val('');
-					 }
-			});
+				$(input).focus(function(){
+						 if (input.val() == input.attr('placeholder')) {
+								 input.val('');
+						 }
+				});
 
-			$(input).blur(function(){
-					if (input.val() == '' || input.val() == input.attr('placeholder')) {
-							input.val(input.attr('placeholder'));
-					}
-			});
-	});
-};
-</script>
+				$(input).blur(function(){
+						if (input.val() == '' || input.val() == input.attr('placeholder')) {
+								input.val(input.attr('placeholder'));
+						}
+				});
+		});
+	};
+	</script>
+
+
+	<script type="text/javascript">
+	<!--
+	/* EIP EbuGenTag */
+	xtnv = document; //parent.document or top.document or document
+	xtsd = "https://logs128";
+	xtsite = "412253";
+	xtn2 = "4"; // level 2 site ID
+	xtpage = "proteger_ses_biens_ses_proches::assurance_auto::offre_speciale"; //page name (with the use of :: to create chapters)
+	xtdi = ""; //implication degree
+	xt_multc = ""; //all the xi indicators (like "&x1=...&x2=....&x3=...")
+	xt_at = ""; //user ID (string)
+	xt_ac = ""; //category ID
+	//do not modify below
+	if (window.xtparam!=null){window.xtparam+="&ac="+xt_ac+"&at="+xt_at+xt_multc;}
+	else{window.xtparam="&ac="+xt_ac+"&at="+xt_at+xt_multc;};
+	//-->
+	</script>
+	<script type="text/javascript" src="https://static.societegenerale.fr//pri/xtclicks.js"></script>
+
+	<script type="text/javascript" src="https://static.societegenerale.fr//pri/xtcore.js"></script>
+	<noscript>
+	<img width="1" height="1" alt="" src="https://logs128.xiti.com/hit.xiti?s=412253&s2=4&p=proteger_ses_biens_ses_proches::assurance_auto::offre_speciale&di=&at=&ac=" >
+	</noscript>
+
+
+
 
 </body>
 </html>
